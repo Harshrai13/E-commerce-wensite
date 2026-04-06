@@ -1,0 +1,52 @@
+import { createContext, useState, useContext, useEffect } from 'react';
+import axios from 'axios';
+
+const AuthContext = createContext();
+
+export const useAuth = () => useContext(AuthContext);
+
+export const AuthProvider = ({ children }) => {
+  const [user, setUser] = useState(null);
+  const [token, setToken] = useState(localStorage.getItem('luxe_token') || null);
+
+  useEffect(() => {
+    if (token) {
+      // Decode token or fetch user profile (mock decoded for now)
+      try {
+        const payloadStr = atob(token.split('.')[1]);
+        const payload = JSON.parse(payloadStr);
+        // We might not have full name, but we have id and role
+        setUser({ id: payload.id, role: payload.role });
+      } catch (e) {
+        setToken(null);
+        localStorage.removeItem('luxe_token');
+      }
+    }
+  }, [token]);
+
+  const login = async (email, password) => {
+    const res = await axios.post('http://localhost:5000/api/users/login', { email, password });
+    setToken(res.data.token);
+    setUser(res.data.user);
+    localStorage.setItem('luxe_token', res.data.token);
+  };
+
+  const register = async (name, email, password) => {
+    const res = await axios.post('http://localhost:5000/api/users/register', { name, email, password });
+    setToken(res.data.token);
+    setUser(res.data.user);
+    localStorage.setItem('luxe_token', res.data.token);
+  };
+
+  const logout = () => {
+    setToken(null);
+    setUser(null);
+    localStorage.removeItem('luxe_token');
+  };
+
+  return (
+    <AuthContext.Provider value={{ user, token, login, register, logout }}>
+      {children}
+    </AuthContext.Provider>
+  );
+};

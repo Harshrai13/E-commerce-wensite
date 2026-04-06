@@ -1,0 +1,1071 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Classic Black Hoodie",
+      "price": 1999,
+      "category": "clothes",
+      "description": "Premium quality cotton blend hoodie with a minimalist design. Perfect for layering or wearing solo. Features a kangaroo pocket and adjustable drawstring hood.",
+      "image": "https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=600&h=700&fit=crop",
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Black",
+        "Charcoal"
+      ],
+      "rating": 4.8,
+      "reviews": 234,
+      "badge": "Bestseller",
+      "sizeChart": {
+        "headers": [
+          "Size",
+          "Chest (in)",
+          "Length (in)",
+          "Shoulder (in)"
+        ],
+        "rows": [
+          [
+            "XS",
+            "36",
+            "26",
+            "16"
+          ],
+          [
+            "S",
+            "38",
+            "27",
+            "17"
+          ],
+          [
+            "M",
+            "40",
+            "28",
+            "18"
+          ],
+          [
+            "L",
+            "42",
+            "29",
+            "19"
+          ],
+          [
+            "XL",
+            "44",
+            "30",
+            "20"
+          ],
+          [
+            "XXL",
+            "46",
+            "31",
+            "21"
+          ]
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "name": "Premium White T-Shirt",
+      "price": 899,
+      "category": "clothes",
+      "description": "Crafted from 100% organic Supima cotton. Ultra-soft feel with a relaxed fit that's perfect for everyday wear. Pre-shrunk and fade-resistant.",
+      "image": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=600&h=700&fit=crop",
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "White",
+        "Off-White"
+      ],
+      "rating": 4.6,
+      "reviews": 187,
+      "badge": null,
+      "sizeChart": {
+        "headers": [
+          "Size",
+          "Chest (in)",
+          "Length (in)",
+          "Shoulder (in)"
+        ],
+        "rows": [
+          [
+            "XS",
+            "34",
+            "25",
+            "15.5"
+          ],
+          [
+            "S",
+            "36",
+            "26",
+            "16.5"
+          ],
+          [
+            "M",
+            "38",
+            "27",
+            "17.5"
+          ],
+          [
+            "L",
+            "40",
+            "28",
+            "18.5"
+          ],
+          [
+            "XL",
+            "42",
+            "29",
+            "19.5"
+          ],
+          [
+            "XXL",
+            "44",
+            "30",
+            "20.5"
+          ]
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "name": "Vintage Denim Jacket",
+      "price": 2499,
+      "category": "clothes",
+      "description": "Classic denim jacket with a vintage wash finish. Features button closure, chest pockets, and a timeless silhouette that never goes out of style.",
+      "image": "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=600&h=700&fit=crop",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Blue Wash",
+        "Dark Indigo"
+      ],
+      "rating": 4.7,
+      "reviews": 156,
+      "badge": "New Arrival",
+      "sizeChart": {
+        "headers": [
+          "Size",
+          "Chest (in)",
+          "Length (in)",
+          "Shoulder (in)"
+        ],
+        "rows": [
+          [
+            "S",
+            "38",
+            "25",
+            "17"
+          ],
+          [
+            "M",
+            "40",
+            "26",
+            "18"
+          ],
+          [
+            "L",
+            "42",
+            "27",
+            "19"
+          ],
+          [
+            "XL",
+            "44",
+            "28",
+            "20"
+          ],
+          [
+            "XXL",
+            "46",
+            "29",
+            "21"
+          ]
+        ]
+      }
+    },
+    {
+      "id": 7,
+      "name": "Urban Street Sneakers",
+      "price": 3499,
+      "category": "shoes",
+      "description": "Contemporary street-style sneakers with a chunky sole and premium leather upper. Cushioned insole for all-day comfort.",
+      "image": "https://images.unsplash.com/photo-1552346154-21d32810aba3?w=600&h=700&fit=crop",
+      "sizes": [
+        "UK 6",
+        "UK 7",
+        "UK 8",
+        "UK 9",
+        "UK 10",
+        "UK 11"
+      ],
+      "colors": [
+        "White/Black",
+        "All White"
+      ],
+      "rating": 4.7,
+      "reviews": 278,
+      "badge": "Bestseller",
+      "sizeChart": {
+        "headers": [
+          "UK Size",
+          "US Size",
+          "EU Size",
+          "Foot Length (cm)"
+        ],
+        "rows": [
+          [
+            "UK 6",
+            "US 7",
+            "EU 40",
+            "25.0"
+          ],
+          [
+            "UK 7",
+            "US 8",
+            "EU 41",
+            "25.5"
+          ],
+          [
+            "UK 8",
+            "US 9",
+            "EU 42",
+            "26.5"
+          ],
+          [
+            "UK 9",
+            "US 10",
+            "EU 43",
+            "27.0"
+          ],
+          [
+            "UK 10",
+            "US 11",
+            "EU 44",
+            "28.0"
+          ],
+          [
+            "UK 11",
+            "US 12",
+            "EU 45",
+            "28.5"
+          ]
+        ]
+      }
+    },
+    {
+      "id": 8,
+      "name": "Classic Leather Boots",
+      "price": 4999,
+      "category": "shoes",
+      "description": "Handcrafted leather boots with Goodyear welt construction. Durable rubber sole and padded collar for superior comfort and style.",
+      "image": "https://images.unsplash.com/photo-1638247025967-b4e38f787b76?w=600&h=700&fit=crop",
+      "sizes": [
+        "UK 7",
+        "UK 8",
+        "UK 9",
+        "UK 10",
+        "UK 11"
+      ],
+      "colors": [
+        "Brown",
+        "Black"
+      ],
+      "rating": 4.8,
+      "reviews": 195,
+      "badge": "Premium",
+      "sizeChart": {
+        "headers": [
+          "UK Size",
+          "US Size",
+          "EU Size",
+          "Foot Length (cm)"
+        ],
+        "rows": [
+          [
+            "UK 7",
+            "US 8",
+            "EU 41",
+            "25.5"
+          ],
+          [
+            "UK 8",
+            "US 9",
+            "EU 42",
+            "26.5"
+          ],
+          [
+            "UK 9",
+            "US 10",
+            "EU 43",
+            "27.0"
+          ],
+          [
+            "UK 10",
+            "US 11",
+            "EU 44",
+            "28.0"
+          ],
+          [
+            "UK 11",
+            "US 12",
+            "EU 45",
+            "28.5"
+          ]
+        ]
+      }
+    },
+    {
+      "id": 9,
+      "name": "Urban Slim Denim",
+      "price": 1899,
+      "category": "clothes",
+      "description": "Premium stretch denim with a slim fit. Features five-pocket styling and a versatile dark wash that pairs with anything.",
+      "image": "https://images.unsplash.com/photo-1542272604-787c3835535d?w=600&h=700&fit=crop",
+      "sizes": [
+        "30",
+        "32",
+        "34",
+        "36"
+      ],
+      "colors": [
+        "Deep Blue",
+        "Charcoal"
+      ],
+      "rating": 4.5,
+      "reviews": 142,
+      "badge": "Trending",
+      "sizeChart": {
+        "headers": [
+          "Size",
+          "Waist (in)",
+          "Inseam (in)"
+        ],
+        "rows": [
+          [
+            "30",
+            "30",
+            "32"
+          ],
+          [
+            "32",
+            "32",
+            "32"
+          ],
+          [
+            "34",
+            "34",
+            "32"
+          ],
+          [
+            "36",
+            "36",
+            "32"
+          ]
+        ]
+      }
+    },
+    {
+      "id": 10,
+      "name": "Performance Running Shoes",
+      "price": 2799,
+      "category": "shoes",
+      "description": "Lightweight, breathable mesh upper with responsive cushioning for maximum energy return during your daily runs.",
+      "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=600&h=700&fit=crop",
+      "sizes": [
+        "UK 7",
+        "UK 8",
+        "UK 9",
+        "UK 10"
+      ],
+      "colors": [
+        "Neon Red",
+        "Ghost White"
+      ],
+      "rating": 4.9,
+      "reviews": 312,
+      "badge": "High Performance",
+      "sizeChart": {
+        "headers": [
+          "UK Size",
+          "Foot Length (cm)"
+        ],
+        "rows": [
+          [
+            "UK 7",
+            "25.5"
+          ],
+          [
+            "UK 8",
+            "26.5"
+          ],
+          [
+            "UK 9",
+            "27.5"
+          ],
+          [
+            "UK 10",
+            "28.5"
+          ]
+        ]
+      }
+    },
+    {
+      "id": 11,
+      "name": "Midnight Bomber Jacket",
+      "price": 3299,
+      "category": "clothes",
+      "description": "Sleek, water-resistant bomber jacket with a minimalist aesthetic. Ribbed cuffs and hem for a comfortable, snug fit.",
+      "image": "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=600&h=700&fit=crop",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "Midnight Navy",
+        "Forest Green"
+      ],
+      "rating": 4.7,
+      "reviews": 89,
+      "badge": "Winter Essential",
+      "sizeChart": {
+        "headers": [
+          "Size",
+          "Chest (in)",
+          "Length (in)"
+        ],
+        "rows": [
+          [
+            "S",
+            "38",
+            "26"
+          ],
+          [
+            "M",
+            "40",
+            "27"
+          ],
+          [
+            "L",
+            "42",
+            "28"
+          ],
+          [
+            "XL",
+            "44",
+            "29"
+          ]
+        ]
+      }
+    },
+    {
+      "id": 12,
+      "name": "Suede Penny Loafers",
+      "price": 3499,
+      "category": "shoes",
+      "description": "Sophisticated suede loafers with a classic penny strap. Hand-stitched detailing and a durable rubber sole.",
+      "image": "https://images.unsplash.com/photo-1614252235316-8c857d38b5f4?w=600&h=700&fit=crop",
+      "sizes": [
+        "UK 7",
+        "UK 8",
+        "UK 9",
+        "UK 10"
+      ],
+      "colors": [
+        "Tan",
+        "Dark Brown"
+      ],
+      "rating": 4.6,
+      "reviews": 64,
+      "badge": "Luxury",
+      "sizeChart": {
+        "headers": [
+          "UK Size",
+          "Foot Length (cm)"
+        ],
+        "rows": [
+          [
+            "UK 7",
+            "26.0"
+          ],
+          [
+            "UK 8",
+            "27.0"
+          ],
+          [
+            "UK 9",
+            "28.0"
+          ],
+          [
+            "UK 10",
+            "29.0"
+          ]
+        ]
+      }
+    },
+    {
+      "id": 13,
+      "name": "Silk Summer Dress",
+      "price": 2299,
+      "category": "clothes",
+      "description": "Elegant silk blend dress with a fluid silhouette. Perfect for summer evenings and garden parties.",
+      "image": "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?w=600&h=700&fit=crop",
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "colors": [
+        "Cream",
+        "Pale Pink"
+      ],
+      "rating": 4.8,
+      "reviews": 112,
+      "badge": "Boutique",
+      "sizeChart": {
+        "headers": [
+          "Size",
+          "Bust (in)",
+          "Length (in)"
+        ],
+        "rows": [
+          [
+            "XS",
+            "32",
+            "42"
+          ],
+          [
+            "S",
+            "34",
+            "43"
+          ],
+          [
+            "M",
+            "36",
+            "44"
+          ],
+          [
+            "L",
+            "38",
+            "45"
+          ]
+        ]
+      }
+    },
+    {
+      "id": 15,
+      "name": "Classic Oxford Shoes",
+      "price": 4299,
+      "category": "shoes",
+      "description": "Timeless leather Oxford shoes with a polished finish. Perfect for formal occasions and professional settings.",
+      "image": "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?w=600&h=700&fit=crop",
+      "sizes": [
+        "UK 7",
+        "UK 8",
+        "UK 9",
+        "UK 10",
+        "UK 11"
+      ],
+      "colors": [
+        "Black",
+        "Oxblood"
+      ],
+      "rating": 4.9,
+      "reviews": 156,
+      "badge": "Top Rated",
+      "sizeChart": {
+        "headers": [
+          "UK Size",
+          "US Size",
+          "EU Size"
+        ],
+        "rows": [
+          [
+            "UK 7",
+            "US 8",
+            "EU 41"
+          ],
+          [
+            "UK 8",
+            "US 9",
+            "EU 42"
+          ],
+          [
+            "UK 9",
+            "US 10",
+            "EU 43"
+          ],
+          [
+            "UK 10",
+            "US 11",
+            "EU 44"
+          ]
+        ]
+      }
+    },
+    {
+      "id": 16,
+      "name": "Classic Cotton Chinos",
+      "price": 1799,
+      "category": "clothes",
+      "description": "Premium cotton twill chinos with a straight-leg fit. Versatile enough for office wear or weekend outings.",
+      "image": "https://images.unsplash.com/photo-1473966968600-fa801b869a1a?w=600&h=700&fit=crop",
+      "sizes": [
+        "30",
+        "32",
+        "34",
+        "36"
+      ],
+      "colors": [
+        "Khaki",
+        "Navy"
+      ],
+      "rating": 4.6,
+      "reviews": 128,
+      "badge": null,
+      "sizeChart": {
+        "headers": [
+          "Size",
+          "Waist (in)",
+          "Inseam (in)"
+        ],
+        "rows": [
+          [
+            "30",
+            "30",
+            "32"
+          ],
+          [
+            "32",
+            "32",
+            "32"
+          ],
+          [
+            "34",
+            "34",
+            "32"
+          ],
+          [
+            "36",
+            "36",
+            "32"
+          ]
+        ]
+      }
+    },
+    {
+      "id": 17,
+      "name": "Graphic Print Tee",
+      "price": 799,
+      "category": "clothes",
+      "description": "Soft cotton t-shirt featuring a modern geometric print. Pre-shrunk for a consistent fit after every wash.",
+      "image": "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?w=600&h=700&fit=crop",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "White",
+        "Heather Gray"
+      ],
+      "rating": 4.4,
+      "reviews": 92,
+      "badge": "New",
+      "sizeChart": {
+        "headers": [
+          "Size",
+          "Chest (in)",
+          "Length (in)"
+        ],
+        "rows": [
+          [
+            "S",
+            "36",
+            "27"
+          ],
+          [
+            "M",
+            "38",
+            "28"
+          ],
+          [
+            "L",
+            "40",
+            "29"
+          ],
+          [
+            "XL",
+            "42",
+            "30"
+          ]
+        ]
+      }
+    },
+    {
+      "id": 19,
+      "name": "Quilted Puffer Vest",
+      "price": 2499,
+      "category": "clothes",
+      "description": "Lightweight yet warm quilted vest with a sleek finish. Perfect for layering during transitional seasons.",
+      "image": "https://images.unsplash.com/photo-1604644401890-0bd678c83788?w=600&h=700&fit=crop",
+      "sizes": [
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "Navy",
+        "Emerald"
+      ],
+      "rating": 4.6,
+      "reviews": 56,
+      "badge": null,
+      "sizeChart": {
+        "headers": [
+          "Size",
+          "Chest (in)",
+          "Length (in)"
+        ],
+        "rows": [
+          [
+            "M",
+            "40",
+            "26"
+          ],
+          [
+            "L",
+            "42",
+            "27"
+          ],
+          [
+            "XL",
+            "44",
+            "28"
+          ]
+        ]
+      }
+    },
+    {
+      "id": 22,
+      "name": "Rose Gold Minimalist Watch",
+      "price": 5999,
+      "category": "accessories",
+      "description": "Sleek and elegant watch for the modern professional. Featuring a rose gold mesh band and a clean, index-less dial.",
+      "image": "https://images.unsplash.com/photo-1522312346375-d1a52e2b99b3?w=600&h=700&fit=crop",
+      "rating": 4.8,
+      "reviews": 45,
+      "badge": null
+    },
+    {
+      "id": 24,
+      "name": "Midnight Velvet Blazer",
+      "price": 4999,
+      "category": "clothes",
+      "description": "Luxurious velvet blazer in a deep midnight blue. Tailored fit with satin peak lapels for high-end boutique events.",
+      "image": "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?w=600&h=700&fit=crop",
+      "rating": 4.8,
+      "reviews": 21,
+      "badge": "Limited Edition"
+    },
+    {
+      "id": 27,
+      "name": "Premium Aviator Sunglasses",
+      "price": 2499,
+      "category": "accessories",
+      "description": "Timeless aviator shades with polarized gold-tinted lenses and a lightweight metal frame.",
+      "image": "https://images.unsplash.com/photo-1572635196237-14b3f281503f?w=600&h=700&fit=crop",
+      "rating": 4.6,
+      "reviews": 89,
+      "badge": "Bestseller"
+    },
+    {
+      "id": 28,
+      "name": "Hand-Stitched Brogues",
+      "price": 4499,
+      "category": "shoes",
+      "description": "Classic wingtip brogues made from genuine burnished leather. Featuring intricate perforated detailing and a durable Goodyear-welted sole.",
+      "image": "https://images.unsplash.com/photo-1533867617858-e7b97e060509?w=600&h=700&fit=crop",
+      "rating": 4.9,
+      "reviews": 67,
+      "badge": null
+    },
+    {
+      "id": 29,
+      "name": "Python Print Stilettos",
+      "price": 5499,
+      "category": "shoes",
+      "description": "Statement-making stiletto pumps with a realistic python-embossed leather finish. High-end fashion house quality.",
+      "image": "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?w=600&h=700&fit=crop",
+      "rating": 4.8,
+      "reviews": 14,
+      "badge": "Limited Edition"
+    },
+    {
+      "id": 30,
+      "name": "Cashmere Turtleneck",
+      "price": 3499,
+      "category": "clothes",
+      "description": "Ultra-soft 100% cashmere turtleneck sweater. Lightweight yet incredibly warm, a staple for luxury winter wardrobes.",
+      "image": "https://images.unsplash.com/photo-1576566588028-4147f3842f27?w=600&h=700&fit=crop",
+      "rating": 4.9,
+      "reviews": 42,
+      "badge": null
+    },
+    {
+      "id": 32,
+      "name": "Silk Pocket Square",
+      "price": 899,
+      "category": "accessories",
+      "description": "Pure mulberry silk pocket square with a hand-rolled hem and a vibrant paisley print.",
+      "image": "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?w=600&h=700&fit=crop",
+      "rating": 4.8,
+      "reviews": 24,
+      "badge": "New Arrival"
+    },
+    {
+      "id": 33,
+      "name": "Emerald Silk Scarf",
+      "price": 1899,
+      "category": "accessories",
+      "description": "Long silk scarf in a rich emerald green, inspired by the boutique's signature colors.",
+      "image": "https://images.unsplash.com/photo-1520903920243-00d872a2d1c9?w=600&h=700&fit=crop",
+      "rating": 4.9,
+      "reviews": 53,
+      "badge": "New Arrival"
+    },
+    {
+      "id": 36,
+      "name": "Classic Trench Coat",
+      "price": 6499,
+      "category": "clothes",
+      "description": "Double-breasted trench coat in water-resistant gabardine. Features a waist-defining belt and traditional epaulettes.",
+      "image": "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=600&h=700&fit=crop",
+      "rating": 5,
+      "reviews": 24,
+      "badge": "New Arrival"
+    },
+    {
+      "id": 37,
+      "name": "Suede Desert Boots",
+      "price": 3899,
+      "category": "shoes",
+      "description": "Versatile ankle boots crafted from premium Italian suede. Features a crepe sole and timeless two-eyelet design.",
+      "image": "https://images.unsplash.com/photo-1542272604-787c3835535d?w=600&h=700&fit=crop",
+      "rating": 4.7,
+      "reviews": 56,
+      "badge": null
+    },
+    {
+      "id": 38,
+      "name": "Linen Summer Shorts",
+      "price": 1499,
+      "category": "clothes",
+      "description": "Breathable 100% linen shorts with an elasticated drawstring waist. Effortless summer elegance.",
+      "image": "https://images.unsplash.com/photo-1591195853828-11db59a44f6b?w=600&h=700&fit=crop",
+      "rating": 4.6,
+      "reviews": 31,
+      "badge": null
+    },
+    {
+      "id": 39,
+      "name": "Minimalist Leather Wallet",
+      "price": 1899,
+      "category": "accessories",
+      "description": "Slim bi-fold wallet made from vegetable-tanned leather. Holds up to 8 cards and cash without the bulk.",
+      "image": "https://images.unsplash.com/photo-1627123424574-724758594e93?w=600&h=700&fit=crop",
+      "rating": 4.9,
+      "reviews": 112,
+      "badge": "Bestseller"
+    },
+    {
+      "id": 40,
+      "name": "Hand-Knitted Wool Scarf",
+      "price": 1299,
+      "category": "accessories",
+      "description": "Chunky knit scarf in a charcoal grey wool blend. Incredibly soft and warm for winter Boutique wear.",
+      "image": "https://images.unsplash.com/photo-1520903920243-00d872a2d1c9?w=600&h=700&fit=crop",
+      "rating": 4.8,
+      "reviews": 45,
+      "badge": null
+    },
+    {
+      "id": 41,
+      "name": "Gold Hoop Earrings",
+      "price": 999,
+      "category": "accessories",
+      "description": "Elegant 18k gold-filled hollow hoops. Lightweight enough for all-day wear with a high-shine finish.",
+      "image": "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?w=600&h=700&fit=crop",
+      "rating": 4.9,
+      "reviews": 67,
+      "badge": "Limited Edition"
+    },
+    {
+      "id": 42,
+      "name": "Leather Moto Jacket",
+      "price": 8999,
+      "category": "clothes",
+      "description": "Authentic full-grain leather motorcycle jacket. Features asymmetrical zip closure and silver-toned hardware.",
+      "image": "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=600&h=700&fit=crop",
+      "rating": 5,
+      "reviews": 18,
+      "badge": "Bestseller"
+    },
+    {
+      "id": 43,
+      "name": "Platform Loafers",
+      "price": 4299,
+      "category": "shoes",
+      "description": "Modern platform loafers with a chunky lug sole and polished leather finish. Trend-setting boutique footwear.",
+      "image": "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?w=600&h=700&fit=crop",
+      "rating": 4.7,
+      "reviews": 29,
+      "badge": null
+    },
+    {
+      "id": 44,
+      "name": "Satin Slip Skirt",
+      "price": 2499,
+      "category": "clothes",
+      "description": "Bias-cut satin skirt with a silky sheen. Drapes beautifully and can be dressed up or down.",
+      "image": "https://images.unsplash.com/photo-1583337130417-3346a1be7dee?w=600&h=700&fit=crop",
+      "rating": 4.8,
+      "reviews": 38,
+      "badge": "New Arrival"
+    }
+  ],
+  "orders": [
+    {
+      "orderId": "ORD-1001",
+      "items": [
+        {
+          "id": 3,
+          "name": "Vintage Denim Jacket",
+          "price": 2499,
+          "category": "clothes",
+          "image": "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=600&h=700&fit=crop",
+          "selectedSize": "M",
+          "quantity": 1
+        }
+      ],
+      "address": {
+        "fullName": "Rahul Sharma",
+        "phone": "9876543210",
+        "street": "123 MG Road",
+        "city": "Mumbai",
+        "state": "Maharashtra",
+        "pincode": "400001"
+      },
+      "paymentMethod": "UPI",
+      "promoCode": null,
+      "subtotal": 2499,
+      "shipping": 40,
+      "discount": 0,
+      "total": 2539,
+      "status": "Shipped",
+      "createdAt": "2026-04-03T10:20:00.000Z"
+    },
+    {
+      "orderId": "ORD-1002",
+      "items": [
+        {
+          "id": 7,
+          "name": "Urban Street Sneakers",
+          "price": 3499,
+          "category": "shoes",
+          "image": "https://images.unsplash.com/photo-1552346154-21d32810aba3?w=600&h=700&fit=crop",
+          "selectedSize": "UK 8",
+          "quantity": 1
+        },
+        {
+          "id": 2,
+          "name": "Premium White T-Shirt",
+          "price": 899,
+          "category": "clothes",
+          "image": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=600&h=700&fit=crop",
+          "selectedSize": "L",
+          "quantity": 2
+        }
+      ],
+      "address": {
+        "fullName": "Priya Patel",
+        "phone": "9123456789",
+        "street": "45 Tech Park",
+        "city": "Bangalore",
+        "state": "Karnataka",
+        "pincode": "560001"
+      },
+      "paymentMethod": "Card",
+      "promoCode": "SAVE200",
+      "subtotal": 5297,
+      "shipping": 40,
+      "discount": 200,
+      "total": 5137,
+      "status": "Delivered",
+      "createdAt": "2026-04-01T14:45:00.000Z"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "Admin User",
+      "email": "admin@luxestore.com",
+      "password": "password123",
+      "role": "admin",
+      "createdAt": "2026-04-01T10:00:00.000Z"
+    },
+    {
+      "id": 2,
+      "name": "Main Admin",
+      "email": "admin",
+      "password": "rai12345",
+      "role": "admin",
+      "createdAt": "2026-04-06T06:39:02.927Z"
+    }
+  ],
+  "promoCodes": [
+    {
+      "code": "SAVE250",
+      "discount": 250,
+      "description": "Get ₹250 off on all products",
+      "active": true
+    },
+    {
+      "code": "SAVE500",
+      "discount": 500,
+      "description": "Flat ₹500 discount on premium orders",
+      "active": true
+    },
+    {
+      "code": "WELCOME100",
+      "discount": 100,
+      "description": "Welcome offer - ₹100 off on your first order",
+      "active": true
+    }
+  ],
+  "counters": {
+    "products": 45,
+    "orders": 1002,
+    "users": 2
+  }
+}

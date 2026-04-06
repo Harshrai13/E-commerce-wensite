@@ -1,0 +1,136 @@
+.product-card {
+  display: block;
+  background: #ffffff;
+  border-radius: 24px;
+  overflow: hidden;
+  text-decoration: none;
+  transition: all 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+  border: 1px solid rgba(0, 0, 0, 0.03);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.04);
+  height: 100%;
+  color: inherit;
+  will-change: transform;
+}
+
+.product-card:hover {
+  transform: translateY(-12px);
+  box-shadow: 0 30px 60px rgba(0, 0, 0, 0.12);
+}
+
+.product-card__image-wrapper {
+  position: relative;
+  aspect-ratio: 1 / 1.1;
+  overflow: hidden;
+  background: #f8fafc;
+}
+
+.product-card__image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.product-card:hover .product-card__image {
+  transform: scale(1.1);
+}
+
+.product-card__wishlist-btn {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: #ffffff;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #64748b;
+  cursor: pointer;
+  z-index: 10;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.product-card__wishlist-btn:hover {
+  transform: scale(1.1);
+  color: #ef4444;
+}
+
+.product-card__wishlist-btn--active {
+  color: #ef4444;
+}
+
+.product-card__badge {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  background: #022c22;
+  color: #fff;
+  padding: 6px 12px;
+  border-radius: 80px;
+  font-size: 0.65rem;
+  font-weight: 800;
+  letter-spacing: 1px;
+  z-index: 5;
+  text-transform: uppercase;
+}
+
+.product-card__info {
+  padding: 20px;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.product-card__category {
+  display: block;
+  font-size: 0.7rem;
+  font-weight: 700;
+  color: var(--emerald-primary);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.product-card__name {
+  font-size: 1.05rem;
+  font-weight: 800;
+  color: #1e293b;
+  letter-spacing: -0.3px;
+  line-height: 1.25;
+}
+
+.product-card__meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 4px;
+}
+
+.product-card__rating {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #64748b;
+}
+
+.product-card__star {
+  color: #f59e0b;
+  fill: #f59e0b;
+}
+
+.product-card__reviews {
+  color: #94a3b8;
+  font-size: 0.75rem;
+}
+
+.product-card__price {
+  font-size: 1.1rem;
+  font-weight: 800;
+  color: #1e293b;
+}

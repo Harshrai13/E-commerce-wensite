@@ -1,0 +1,132 @@
+.policy-modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(2, 44, 34, 0.4);
+  backdrop-filter: blur(10px);
+  z-index: 1100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+}
+
+.policy-modal-content {
+  background: var(--bg-card);
+  width: 100%;
+  max-width: 550px;
+  border-radius: var(--radius-xl);
+  border: 1px solid var(--border-emerald);
+  box-shadow: var(--shadow-emerald);
+  padding: 48px;
+  position: relative;
+  overflow: hidden;
+}
+
+.policy-modal-close {
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  background: var(--bg-secondary);
+  border: none;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.25rem;
+  color: var(--emerald-primary);
+  cursor: pointer;
+  transition: all var(--transition-fast);
+}
+
+.policy-modal-close:hover {
+  background: var(--emerald-primary);
+  color: white;
+  transform: rotate(90deg);
+}
+
+.policy-modal-header {
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.policy-modal-icon-box {
+  width: 80px;
+  height: 80px;
+  background: var(--emerald-glow);
+  color: var(--emerald-primary);
+  border-radius: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.5rem;
+  margin: 0 auto 24px;
+}
+
+.policy-modal-header h2 {
+  font-size: 1.75rem;
+  font-weight: 800;
+  color: var(--emerald-primary);
+  margin-bottom: 8px;
+}
+
+.policy-modal-header .subtitle {
+  color: var(--emerald-secondary);
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.policy-modal-body .description {
+  color: var(--text-secondary);
+  line-height: 1.7;
+  font-size: 1.05rem;
+  margin-bottom: 32px;
+  text-align: center;
+}
+
+.policy-points {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-bottom: 40px;
+}
+
+.policy-point {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  background: var(--bg-secondary);
+  padding: 16px;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--border);
+}
+
+.check-icon {
+  color: var(--success);
+  margin-top: 4px;
+  flex-shrink: 0;
+}
+
+.policy-point span {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--emerald-primary);
+}
+
+.policy-modal-footer {
+  display: flex;
+  justify-content: center;
+}
+
+.policy-modal-footer .btn-primary {
+  width: 100%;
+  padding: 16px;
+  font-size: 1.1rem;
+}
+
+@media (max-width: 640px) {
+  .policy-modal-content {
+    padding: 32px 24px;
+  }
+}
