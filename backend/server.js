@@ -7,7 +7,7 @@ const userRoutes = require('./routes/userRoutes');
 const newsletterRoutes = require('./routes/newsletterRoutes');
 
 const app = express();
-const PORT = 5000;
+const PORT = process.env.PORT || 5000;
 
 // Middleware
 app.use(cors());
@@ -23,6 +23,10 @@ app.use('/api/users', userRoutes);
 app.use('/api/newsletter', newsletterRoutes);
 
 // Health check
+app.get('/', (req, res) => {
+  res.send('<h1>LUXE Store Backend is Running!</h1><p>Use /api/products to access endpoints.</p>');
+});
+
 app.get('/api/health', (req, res) => {
   res.json({ status: 'ok', message: 'LUXE Store API is running' });
 });
