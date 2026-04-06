@@ -5,7 +5,7 @@ import axios from 'axios';
 import { FiMapPin, FiCopy, FiCheck, FiTag, FiPackage, FiArrowLeft, FiShield, FiCreditCard } from 'react-icons/fi';
 import './Checkout.css';
 
-const API_URL = (import.meta.env.VITE_API_URL || (import.meta.env.VITE_API_URL || 'http://localhost:5000/api') + '');
+const API_URL = (import.meta.env.VITE_API_URL || 'https://e-commerce-wensite.onrender.com/api');
 const SHIPPING_CHARGE = 40;
 
 const Checkout = () => {

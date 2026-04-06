@@ -14,7 +14,7 @@ const Wishlist = () => {
   useEffect(() => {
     const fetchWishlistProducts = async () => {
       try {
-        const res = await axios.get((import.meta.env.VITE_API_URL || 'http://localhost:5000/api') + '/products');
+        const res = await axios.get((import.meta.env.VITE_API_URL || 'https://e-commerce-wensite.onrender.com/api') + '/products');
         const allProducts = res.data;
         const filtered = allProducts.filter(p => wishlistItems.includes(p.id));
         setProducts(filtered);

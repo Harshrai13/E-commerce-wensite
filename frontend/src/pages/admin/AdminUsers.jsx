@@ -10,7 +10,7 @@ const AdminUsers = () => {
   useEffect(() => {
     const fetchUsers = async () => {
       try {
-        const res = await axios.get((import.meta.env.VITE_API_URL || 'http://localhost:5000/api') + '/users');
+        const res = await axios.get((import.meta.env.VITE_API_URL || 'https://e-commerce-wensite.onrender.com/api') + '/users');
         setUsers(res.data);
       } catch (err) {
         console.error('Error fetching users:', err);
