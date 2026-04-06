@@ -8,7 +8,7 @@ import PolicyModal from '../components/PolicyModal';
 import { FiArrowRight, FiGrid, FiSearch, FiEye, FiCheckCircle, FiHeart, FiShoppingBag, FiClock } from 'react-icons/fi';
 import './Home.css';
 
-const API_URL = 'http://localhost:5000/api';
+const API_URL = (import.meta.env.VITE_API_URL || (import.meta.env.VITE_API_URL || 'http://localhost:5000/api') + '');
 
 const Home = () => {
   const [products, setProducts] = useState([]);

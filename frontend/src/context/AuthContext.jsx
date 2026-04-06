@@ -25,14 +25,14 @@ export const AuthProvider = ({ children }) => {
   }, [token]);
 
   const login = async (email, password) => {
-    const res = await axios.post('http://localhost:5000/api/users/login', { email, password });
+    const res = await axios.post((import.meta.env.VITE_API_URL || 'http://localhost:5000/api') + '/users/login', { email, password });
     setToken(res.data.token);
     setUser(res.data.user);
     localStorage.setItem('luxe_token', res.data.token);
   };
 
   const register = async (name, email, password) => {
-    const res = await axios.post('http://localhost:5000/api/users/register', { name, email, password });
+    const res = await axios.post((import.meta.env.VITE_API_URL || 'http://localhost:5000/api') + '/users/register', { name, email, password });
     setToken(res.data.token);
     setUser(res.data.user);
     localStorage.setItem('luxe_token', res.data.token);

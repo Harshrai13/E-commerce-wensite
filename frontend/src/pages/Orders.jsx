@@ -19,7 +19,7 @@ const Orders = () => {
 
     const fetchOrders = async () => {
       try {
-        const res = await axios.get(`http://localhost:5000/api/orders/user/${user.email}`);
+        const res = await axios.get(`${import.meta.env.VITE_API_URL || "http://localhost:5000/api"}/orders/user/${user.email}`);
         setOrders(res.data.sort((a, b) => new Date(b.createdAt) - new Date(a.createdAt)));
       } catch (err) {
         console.error('Error fetching orders:', err);
